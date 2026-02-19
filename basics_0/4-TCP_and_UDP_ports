@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# That only shows listening sockets and That shows the PID and name of the program to which each socket belongs
+# Displays listening TCP and UDP sockets with PID and program name
+
 netstat -tulpn
